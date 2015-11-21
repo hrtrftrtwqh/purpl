@@ -1,0 +1,4 @@
+obj/util.o: util.cpp util.h uint256.h serialize.h allocators.h version.h \
+ clientversion.h sync.h strlcpy.h ui_interface.h netbase.h compat.h
+util.cpp util.h uint256.h serialize.h allocators.h version.h :
+ clientversion.h sync.h strlcpy.h ui_interface.h netbase.h compat.h :
